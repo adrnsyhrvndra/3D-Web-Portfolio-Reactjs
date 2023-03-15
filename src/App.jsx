@@ -14,7 +14,7 @@ function App() {
       <About />
       <Experience />
       <Tech />
-      <Multimedia/>
+      {/* <Multimedia/> */}
       <Works />
       {/* <Feedbacks /> */}
       <div className='relative z-0'>

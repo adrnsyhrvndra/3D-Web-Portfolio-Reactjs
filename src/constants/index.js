@@ -1,4 +1,15 @@
 import {
+    certificate01,
+    certificate02,
+    certificate03,
+    certificate04,
+    certificate05,
+    certificate06,
+    certificate07,
+    certificate08,
+    certificate09,
+    certificate10,
+    certificate11,
     mobile,
     backend,
     creator,
@@ -20,20 +31,23 @@ import {
     github,
     figma,
     sass,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    tujuhruang,
+    fm,
+    nh,
+    float,
+    habbats,
+    poliklinik,
+    teacherassesment,
+    news,
+    mern,
     mongodb,
     aftereffects,
     coreldraw,
     illustrator,
     photoshop,
     premierepro,
-    canva
+    canva,
+    instagramhome
   } from "../assets";
   
   export const navLinks = [
@@ -80,15 +94,15 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "Bootstrap",
       icon: bootstrap,
     },
     {
-      name: "Tailwind CSS",
+      name: "Materialize",
+      icon: materialize,
+    },
+    {
+      name: "Tailwind",
       icon: tailwind,
     },
     {
@@ -96,8 +110,8 @@ import {
       icon: sass,
     },
     {
-      name: "Materialize",
-      icon: materialize,
+      name: "Javascript",
+      icon: javascript,
     },
     {
       name: "React JS",
@@ -139,6 +153,34 @@ import {
       name: "Github",
       icon: github,
     },
+    {
+      name: "After Effects",
+      icon: aftereffects,
+    },
+    {
+      name: "Premiere Pro",
+      icon: premierepro,
+    },
+    {
+      name: "Figma",
+      icon: figma,
+    },
+    {
+      name: "Coreldraw",
+      icon: coreldraw,
+    },
+    {
+      name: "Canva",
+      icon: canva,
+    },
+    {
+      name: "Adobe Illustrator",
+      icon: illustrator,
+    },
+    {
+      name: "Adobe Photoshop",
+      icon: photoshop,
+    },
   ];
 
   const multimedia = [
@@ -176,8 +218,8 @@ import {
     {
       title: "Tujuh Ruang Co-Working Space",
       role: "Internship Student",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: tujuhruang,
+      iconBg: "#00BFF3",
       date: "January 2020 - March 2020",
       points: [
         "Program Sekolah SMK Untuk Praktek Kerja Lapangan",
@@ -189,7 +231,7 @@ import {
     {
       title: "Firstmedia PT.Link Net Indonesia",
       role: "Internship Student",
-      icon: tesla,
+      icon: fm,
       iconBg: "#E6DEDD",
       date: "January 2020 - March 2020",
       points: [
@@ -200,8 +242,8 @@ import {
     {
       title: "Pt.Habbatussauda International",
       role: "Graphic Design & Video Editing",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: habbats,
+      iconBg: "#789C03",
       date: "October 2020 - July 2022",
       points: [
         "Mendesain Untuk Kebutuhan Sosial Media,Desain Untuk Desain Kebutuhan Iklan dan Desain Kebutuhan Penjualan",
@@ -212,7 +254,7 @@ import {
     {
       title: "Pt.Nabawi Sehat Berkah",
       role: "Graphic Design & Video Editing",
-      icon: meta,
+      icon: nh,
       iconBg: "#E6DEDD",
       date: "October 2020 - July 2022",
       points: [
@@ -224,8 +266,8 @@ import {
     {
       title: "Float Event Management",
       role: "Freelance Event Organizer",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      icon: float,
+      iconBg: "#1D1836",
       date: "July 2022 - Now",
       points: [
         "Mendesain untuk kebutuhan-kebutuhan acara di event organizer ini serta juga membuat video based on project",
@@ -264,68 +306,192 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Sistem Informasi Poliklinik (PHP Native)",
+      sub_heading: "Ingin dikembangkan ke laravel",
+      status: [
+        {
+          name:"Dalam Pengembangan",
+          color: "bg-gradient-to-r from-green-500 to-green-600",
+        },
+      ],
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Sistem Informasi Poliklinik yang dibangun dengan menggunakan bahasa pemrograman PHP Native.namun projek ini mau saya integrasikan ke laravel.",
       tags: [
         {
-          name: "react",
+          name: "php",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "web",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "poliklinik",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: poliklinik,
+      source_code_link: "#",
     },
     {
-      name: "Job IT",
+      name: "Teacher Asesment (Codeigniter 3)",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Sistem Penilaian Dosen yang dibangun dengan menggunakan bahasa pemrograman Codeigniter 3.namun projek ini mau saya integrasikan ke laravel.",
+      sub_heading: "Ingin dikembangkan ke laravel",
+      status: [
+        {
+          name:"Dalam Pengembangan",
+          color: "bg-gradient-to-r from-green-500 to-green-600",
+        },
+      ],
       tags: [
         {
-          name: "react",
+          name: "codeigniter3",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "web",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "teacherassesment",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: teacherassesment,
+      source_code_link: "https://github.com/adrnsyhrvndra/Teacher-Assesment-Codeigniter-3",
     },
     {
-      name: "Trip Guide",
+      name: "News Portal (Laravel 09)",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Merupakan web portal berita yang dibangun dengan menggunakan bahasa pemrograman Laravel 9.projek ini mau saya kembangkan pake livewire agar SPA.",
+      sub_heading: "Ingin dikembangkan lagi dengan Livewire agar SPA",
+      status: [
+        {
+          name:"Dalam Pengembangan",
+          color: "bg-gradient-to-r from-green-500 to-green-600",
+        },
+      ],
       tags: [
         {
-          name: "nextjs",
+          name: "laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "web",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "portalnews",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: news,
+      source_code_link: "https://github.com/adrnsyhrvndra/Laravel-9-News-Portal-Project",
+    },
+    {
+      name: "Shoppay E-Commerce (MERN)",
+      description:
+        "Merupakan web e-commerce yang dibangun dengan menggunakan Teknologi MERN Stack.projek ini sedang dalam pengerjaan.",
+      sub_heading: "Sedang dalam progress pengerjaan",
+      status: [
+        {
+          name:"Dalam Pengerjaan",
+          color: "bg-gradient-to-r from-red-500 to-red-600",
+        },
+      ],
+      tags: [
+        {
+          name: "mern",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "web",
+          color: "green-text-gradient",
+        },
+        {
+          name: "e-commerce",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mern,
+      source_code_link: "#",
+    },
+    {
+      name: "Design And Video Portfolio",
+      description:
+        "Di Instagram @sarjanabrewok, saya memamerkan karya saya yang meliputi desain grafis, animasi, dan video editing untuk berbagai proyek kreatif.",
+      sub_heading: "Instagram Portfolio",
+      status: [
+        {
+          name:"Portfolio",
+          color: "bg-gradient-to-r from-blue-800 to-blue-900",
+        },
+      ],
+      tags: [
+        {
+          name: "instagram",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "video",
+          color: "green-text-gradient",
+        },
+        {
+          name: "graphicdesign",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: instagramhome,
+      source_code_link: "https://www.instagram.com/sarjanabrewok/",
+    },
+  ];
+
+  const certificate = [
+    {
+      name:"Web Development Bootcamp",
+      image:certificate01,
+    },
+    {
+      name:"Javascript & Jquery",
+      image:certificate02,
+    },
+    {
+      name:"SASS",
+      image:certificate03,
+    },
+    {
+      name:"React JS",
+      image:certificate04,
+    },
+    {
+      name:"Laravel 09",
+      image:certificate05,
+    },
+    {
+      name:"Git & Github",
+      image:certificate06,
+    },
+    {
+      name:"Adobe Premiere Pro",
+      image:certificate07,
+    },
+    {
+      name:"Adobe Photoshop",
+      image:certificate08,
+    },
+    {
+      name:"Canva",
+      image:certificate09,
+    },
+    {
+      name:"Adobe Illustrator",
+      image:certificate10,
+    },
+    {
+      name:"UI Design Mobile App",
+      image:certificate11,
     },
   ];
   
-  export { services, technologies,multimedia, experiences, testimonials, projects };
+  export { services, technologies,multimedia, experiences, testimonials, projects,certificate };
